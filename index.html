@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Trivia Game</title>
+
+		
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		<!-- game container at start -->
+		<div id = start_container>
+			<!-- first game logo -->
+			<h1 class = "logo">Nutty Knowledge Trivia Game</h1>
+
+			<button id = start_button>Start</button>
+		</div>
+
+
+		<!--questions container -->
+		<div id = mid_game_container>
+			<!--  second game Logo -->
+			<h1 class = "logo">Nutty Knowledge Trivia Game</h1>
+
+			<!-- timer -->
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			<!--questions -->
+
+			<h1>1. Macadamia nuts are indigenous to which country?</h1>
+			
+				<input type="radio" name="q1" value="Tanzania">Tanzania
+				<input type="radio" name="q1" value="Australia">Australia
+				<input type="radio" name="q1" value="Brazil">Brazil 
+				<input type="radio" name="q1" value="Bhutan">Bhutan
+				
+
+			<h1>2. Which country produces more than half of Brazil nuts?</h1>
+			
+				<input type="radio" name="q2" value="Brazil">Brazil
+				<input type="radio" name="q2" value="Ghana">Ghana
+				<input type="radio" name="q2" value="Bolivia">Bolivia
+				<input type="radio" name="q2" value="Latvia">Latvia
+
+
+
+			<h1>3. What percentage of world's almond crop goes into chocolate products?</h1>
+			
+				<input type="radio" name="q3" value="30%">30% 
+				<input type="radio" name="q3" value="70%">70% 
+				<input type="radio" name="q3" value="40%">40%
+				<input type="radio" name="q3" value="10%">10%
+
+
+			<h1>4. Which nuts are considered legumes?</h1>
+			
+				<input type="radio" name="q4" value="peanuts">peanuts
+				<input type="radio" name="q4" value="almonds">almonds
+				<input type="radio" name="q4" value="pistachios">pistachios
+				<input type="radio" name="q4" value="Brazil nuts">Brazil nuts
+				
+
+			<h1>5. Which nuts are consumed most in the U.S. in all of their forms?</h1>
+			
+				<input type="radio" name="q5" value="cashews">cashews
+				<input type="radio" name="q5" value="walnuts">walnuts
+				<input type="radio" name="q5" value="hazelnuts">Busch
+				<input type="radio" name="q5" value="peanuts">peanuts
+			
+			<h1>6. Which is the only known nut-related sexually transmitted allergic reachtion?</h1>
+				
+				<input type="radio" name="q6" value="Brazil nut">Brazil nut
+				<input type="radio" name="q6" value="pine">pine
+				<input type="radio" name="q6" value="sesame">Sesame 
+				<input type="radio" name="q6" value="pumpkin">pumpkin 
+				
+
+			<h1>7. Which nuts are mentioned in the Bible twice?</h1>
+			
+				<input type="radio" name="q7" value="cashews">cashews
+				<input type="radio" name="q7" value="pecans">pecans 
+				<input type="radio" name="q7" value="almonds">almonds 
+				<input type="radio" name="q7" value="chestnuts">chestnuts
+
+			<h1>8. Which nuts are mentioned in the Bible once?</h1>
+			
+				<input type="radio" name="q8" value="pistachios">pistachios 
+				<input type="radio" name="q8" value="pumpkins">pumpkins 
+				<input type="radio" name="q8" value="hazelnuts">hazelnuts 
+				<input type="radio" name="q8" value="walnuts">walnuts 
+
+			<h1>9. Which nuts come with a toxic resin that is used in making brake liners and auto paint?</h1>
+			
+				<input type="radio" name="q9" value="cashews">cashews 
+				<input type="radio" name="q9" value="almonds">almonds 
+				<input type="radio" name="q9" value="walnuts">walnuts
+				<input type="radio" name="q9" value="peanuts">peanuts
+
+			<h1>What is the "state nut" of California?</h1>
+			
+				<input type="radio" name="q10" value="almond">almond
+				<input type="radio" name="q10" value="chestnut">chestnut
+				<input type="radio" name="q10" value="pumpkin">pumpkin
+				<input type="radio" name="q10" value="pine">pine
+
+
+				<br>
+
+
+			<button id = done_button>Done!</button>
+
+		</div>
+
+
+
+
+		<!-- game over -->
+		<div id = end_container>
+			<!-- game Logo -->
+			<h1 class = "logo">Nutty Knowledge Trivia Game</h1>
+
+			<h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+
+
+
+		<!--jQuery link -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<!--JavaScript link-->
+		<script src="assets/javascript/app.js"></script>
+		
+	</body>
+</html>
